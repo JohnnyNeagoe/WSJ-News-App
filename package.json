@@ -1,0 +1,36 @@
+{
+  "name": "wsj-news-app",
+  "version": "1.0.0",
+  "description": "Application using NodeJS, ExpressJS, MongoDB and Cheerio to scrape the WSJ for news stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyNeagoe/WSJ-News-App.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "scrapper",
+    "cheerio",
+    "news",
+    "mongoDB"
+  ],
+  "author": "John Neagoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyNeagoe/WSJ-News-App/issues"
+  },
+  "homepage": "https://github.com/JohnnyNeagoe/WSJ-News-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.1",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}
