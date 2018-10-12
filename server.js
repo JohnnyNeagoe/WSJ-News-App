@@ -27,7 +27,6 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/wsjscraper"
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
 
-
 app.use(html_routes);
 app.use(api_routes);
 

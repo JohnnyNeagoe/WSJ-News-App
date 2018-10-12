@@ -11,3 +11,11 @@ main {
 .footer-copyright {
     text-align: center;
 }
+
+/* #image {
+    background-size: cover;
+    background-image:  url("../images/background.jpeg");
+    text-align: center;
+    width: 800px;
+    height: 500px;
+} */
